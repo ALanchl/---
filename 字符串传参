@@ -1,0 +1,24 @@
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+	char main12(char s[200])
+	{
+		s[0] = 'D';  //将第一个字符更改为D  【注意】 → 字符:''    字符串:""
+		printf("%s", s);
+		return 0;
+	}
+	//=============================
+
+	void main()
+	{
+		char a[] = "suck it up"; 
+		main12(a);
+		getchar();
+
+	};
+
+
+
+
